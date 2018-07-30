@@ -1,5 +1,6 @@
 /home/greatqz/RGB-D-SLAM/build/CMakeFiles/edit_cache.dir
 /home/greatqz/RGB-D-SLAM/build/CMakeFiles/rebuild_cache.dir
 /home/greatqz/RGB-D-SLAM/build/src/CMakeFiles/rebuild_cache.dir
+/home/greatqz/RGB-D-SLAM/build/src/CMakeFiles/generate_pointcloud.dir
 /home/greatqz/RGB-D-SLAM/build/src/CMakeFiles/edit_cache.dir
 /home/greatqz/RGB-D-SLAM/build/src/CMakeFiles/main.dir

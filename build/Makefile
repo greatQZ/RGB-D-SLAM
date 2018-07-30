@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named generate_pointcloud
+
+# Build rule for target.
+generate_pointcloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 generate_pointcloud
+.PHONY : generate_pointcloud
+
+# fast build rule for target.
+generate_pointcloud/fast:
+	$(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
+.PHONY : generate_pointcloud/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -131,6 +144,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... generate_pointcloud"
 	@echo "... main"
 .PHONY : help
 

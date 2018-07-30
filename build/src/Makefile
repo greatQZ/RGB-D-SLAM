@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/generate_pointcloud.dir/rule:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generate_pointcloud.dir/rule
+.PHONY : src/CMakeFiles/generate_pointcloud.dir/rule
+
+# Convenience name for target.
+generate_pointcloud: src/CMakeFiles/generate_pointcloud.dir/rule
+
+.PHONY : generate_pointcloud
+
+# fast build rule for target.
+generate_pointcloud/fast:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
+.PHONY : generate_pointcloud/fast
+
+# Convenience name for target.
 src/CMakeFiles/main.dir/rule:
 	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
 .PHONY : src/CMakeFiles/main.dir/rule
@@ -124,6 +139,33 @@ main: src/CMakeFiles/main.dir/rule
 main/fast:
 	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+generatePointCloud.o: generatePointCloud.cpp.o
+
+.PHONY : generatePointCloud.o
+
+# target to build an object file
+generatePointCloud.cpp.o:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o
+.PHONY : generatePointCloud.cpp.o
+
+generatePointCloud.i: generatePointCloud.cpp.i
+
+.PHONY : generatePointCloud.i
+
+# target to preprocess a source file
+generatePointCloud.cpp.i:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i
+.PHONY : generatePointCloud.cpp.i
+
+generatePointCloud.s: generatePointCloud.cpp.s
+
+.PHONY : generatePointCloud.s
+
+# target to generate assembly for a file
+generatePointCloud.cpp.s:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
+.PHONY : generatePointCloud.cpp.s
 
 main.o: main.cpp.o
 
@@ -159,8 +201,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... generate_pointcloud"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... generatePointCloud.o"
+	@echo "... generatePointCloud.i"
+	@echo "... generatePointCloud.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
