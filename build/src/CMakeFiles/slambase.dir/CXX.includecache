@@ -6,10 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/greatqz/RGB-D-SLAM/src/generatePointCloud.cpp
-iostream
+../include/slamBase.h
+fstream
 -
-string
+vector
 -
 opencv2/core/core.hpp
 -
@@ -19,6 +19,10 @@ pcl/io/pcd_io.h
 -
 pcl/point_types.h
 -
+
+/home/greatqz/RGB-D-SLAM/src/slamBase.cpp
+slamBase.h
+/home/greatqz/RGB-D-SLAM/src/slamBase.h
 
 /usr/include/eigen3/Eigen/Cholesky
 Core
