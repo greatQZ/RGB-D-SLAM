@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named joinPointCloud
+
+# Build rule for target.
+joinPointCloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 joinPointCloud
+.PHONY : joinPointCloud
+
+# fast build rule for target.
+joinPointCloud/fast:
+	$(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/build
+.PHONY : joinPointCloud/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -170,6 +183,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... joinPointCloud"
 	@echo "... main"
 	@echo "... slambase"
 	@echo "... detectFeatures"

@@ -218,4 +218,18 @@ src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/include/x86_64-linu
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/include/x86_64-linux-gnu/sys/mman.h
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/calib3d/calib3d.hpp
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/core/affine.hpp
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/core/core.hpp
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/core/core_c.h
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/core/mat.hpp
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/core/operations.hpp
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/core/types_c.h
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/core/version.hpp
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/features2d/features2d.hpp
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/flann/config.h
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/flann/defines.h
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/flann/miniflann.hpp
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/highgui/highgui.hpp
+src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o: /usr/local/include/opencv2/highgui/highgui_c.h
 

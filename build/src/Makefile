@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/joinPointCloud.dir/rule:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/joinPointCloud.dir/rule
+.PHONY : src/CMakeFiles/joinPointCloud.dir/rule
+
+# Convenience name for target.
+joinPointCloud: src/CMakeFiles/joinPointCloud.dir/rule
+
+.PHONY : joinPointCloud
+
+# fast build rule for target.
+joinPointCloud/fast:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/build
+.PHONY : joinPointCloud/fast
+
+# Convenience name for target.
 src/CMakeFiles/main.dir/rule:
 	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
 .PHONY : src/CMakeFiles/main.dir/rule
@@ -224,6 +239,33 @@ generatePointCloud.cpp.s:
 	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
 .PHONY : generatePointCloud.cpp.s
 
+joinPointCloud.o: joinPointCloud.cpp.o
+
+.PHONY : joinPointCloud.o
+
+# target to build an object file
+joinPointCloud.cpp.o:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o
+.PHONY : joinPointCloud.cpp.o
+
+joinPointCloud.i: joinPointCloud.cpp.i
+
+.PHONY : joinPointCloud.i
+
+# target to preprocess a source file
+joinPointCloud.cpp.i:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.i
+.PHONY : joinPointCloud.cpp.i
+
+joinPointCloud.s: joinPointCloud.cpp.s
+
+.PHONY : joinPointCloud.s
+
+# target to generate assembly for a file
+joinPointCloud.cpp.s:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.s
+.PHONY : joinPointCloud.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -286,6 +328,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... joinPointCloud"
 	@echo "... main"
 	@echo "... slambase"
 	@echo "... detectFeatures"
@@ -296,6 +339,9 @@ help:
 	@echo "... generatePointCloud.o"
 	@echo "... generatePointCloud.i"
 	@echo "... generatePointCloud.s"
+	@echo "... joinPointCloud.o"
+	@echo "... joinPointCloud.i"
+	@echo "... joinPointCloud.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
