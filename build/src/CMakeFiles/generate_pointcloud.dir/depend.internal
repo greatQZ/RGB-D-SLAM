@@ -3,6 +3,14 @@
 
 src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o
  /home/greatqz/RGB-D-SLAM/src/generatePointCloud.cpp
+ /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/core.hpp
+ /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/core_c.h
+ /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/mat.hpp
+ /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/operations.hpp
+ /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/types_c.h
+ /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/version.hpp
+ /home/greatqz/opencv-2.4.11/modules/highgui/include/opencv2/highgui/highgui.hpp
+ /home/greatqz/opencv-2.4.11/modules/highgui/include/opencv2/highgui/highgui_c.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Geometry
@@ -218,11 +226,3 @@ src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o
  /usr/include/x86_64-linux-gnu/bits/typesizes.h
  /usr/include/x86_64-linux-gnu/bits/wordsize.h
  /usr/include/x86_64-linux-gnu/sys/mman.h
- /usr/local/include/opencv2/core/core.hpp
- /usr/local/include/opencv2/core/core_c.h
- /usr/local/include/opencv2/core/mat.hpp
- /usr/local/include/opencv2/core/operations.hpp
- /usr/local/include/opencv2/core/types_c.h
- /usr/local/include/opencv2/core/version.hpp
- /usr/local/include/opencv2/highgui/highgui.hpp
- /usr/local/include/opencv2/highgui/highgui_c.h

@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named visualOdometry
+
+# Build rule for target.
+visualOdometry: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualOdometry
+.PHONY : visualOdometry
+
+# fast build rule for target.
+visualOdometry/fast:
+	$(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/build
+.PHONY : visualOdometry/fast
+
+#=============================================================================
 # Target rules for targets named joinPointCloud
 
 # Build rule for target.
@@ -183,6 +196,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... visualOdometry"
 	@echo "... joinPointCloud"
 	@echo "... main"
 	@echo "... slambase"

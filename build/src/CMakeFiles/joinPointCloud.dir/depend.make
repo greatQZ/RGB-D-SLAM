@@ -3,6 +3,21 @@
 
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: ../include/slamBase.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: ../src/joinPointCloud.cpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/affine.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/core.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/core_c.h
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/eigen.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/mat.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/operations.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/types_c.h
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/version.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/features2d/include/opencv2/features2d/features2d.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/flann/include/opencv2/flann/config.h
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/flann/include/opencv2/flann/defines.h
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/flann/include/opencv2/flann/miniflann.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/highgui/include/opencv2/highgui/highgui.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /home/greatqz/opencv-2.4.11/modules/highgui/include/opencv2/highgui/highgui_c.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/eigen3/Eigen/Cholesky
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/eigen3/Eigen/Core
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/eigen3/Eigen/Dense
@@ -211,11 +226,13 @@ src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/Vertices.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/cloud_iterator.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/centroid.h
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/common.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/concatenate.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/copy_point.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/eigen.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/impl/accumulators.hpp
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/impl/centroid.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/impl/common.hpp
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/impl/copy_point.hpp
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/impl/eigen.hpp
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/common/impl/io.hpp
@@ -227,6 +244,11 @@ src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/conversions.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/correspondence.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/exceptions.h
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/filters/boost.h
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/filters/filter.h
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/filters/impl/filter.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/filters/impl/voxel_grid.hpp
+src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/filters/voxel_grid.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/for_each_type.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/geometry/planar_polygon.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/pcl-1.7/pcl/impl/cloud_iterator.hpp
@@ -399,19 +421,4 @@ src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/x86_64-linu
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
 src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/include/x86_64-linux-gnu/sys/mman.h
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/calib3d/calib3d.hpp
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/core/affine.hpp
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/core/core.hpp
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/core/core_c.h
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/core/eigen.hpp
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/core/mat.hpp
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/core/operations.hpp
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/core/types_c.h
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/core/version.hpp
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/features2d/features2d.hpp
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/flann/config.h
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/flann/defines.h
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/flann/miniflann.hpp
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/highgui/highgui.hpp
-src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o: /usr/local/include/opencv2/highgui/highgui_c.h
 

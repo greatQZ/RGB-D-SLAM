@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/visualOdometry.dir/rule:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/visualOdometry.dir/rule
+.PHONY : src/CMakeFiles/visualOdometry.dir/rule
+
+# Convenience name for target.
+visualOdometry: src/CMakeFiles/visualOdometry.dir/rule
+
+.PHONY : visualOdometry
+
+# fast build rule for target.
+visualOdometry/fast:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/build
+.PHONY : visualOdometry/fast
+
+# Convenience name for target.
 src/CMakeFiles/joinPointCloud.dir/rule:
 	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/joinPointCloud.dir/rule
 .PHONY : src/CMakeFiles/joinPointCloud.dir/rule
@@ -320,6 +335,33 @@ slamBase.cpp.s:
 	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.s
 .PHONY : slamBase.cpp.s
 
+visualOdometry.o: visualOdometry.cpp.o
+
+.PHONY : visualOdometry.o
+
+# target to build an object file
+visualOdometry.cpp.o:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.o
+.PHONY : visualOdometry.cpp.o
+
+visualOdometry.i: visualOdometry.cpp.i
+
+.PHONY : visualOdometry.i
+
+# target to preprocess a source file
+visualOdometry.cpp.i:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.i
+.PHONY : visualOdometry.cpp.i
+
+visualOdometry.s: visualOdometry.cpp.s
+
+.PHONY : visualOdometry.s
+
+# target to generate assembly for a file
+visualOdometry.cpp.s:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.s
+.PHONY : visualOdometry.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -328,6 +370,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... visualOdometry"
 	@echo "... joinPointCloud"
 	@echo "... main"
 	@echo "... slambase"
@@ -348,6 +391,9 @@ help:
 	@echo "... slamBase.o"
 	@echo "... slamBase.i"
 	@echo "... slamBase.s"
+	@echo "... visualOdometry.o"
+	@echo "... visualOdometry.i"
+	@echo "... visualOdometry.s"
 .PHONY : help
 
 

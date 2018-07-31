@@ -14,6 +14,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
   "../src/CMakeLists.txt"
+  "/home/greatqz/opencv-2.4.11/cmake/OpenCVConfig.cmake"
+  "/home/greatqz/opencv-2.4.11/cmake/OpenCVModules.cmake"
   "/usr/lib/cmake/vtk-6.2/Modules/vtkChartsCore.cmake"
   "/usr/lib/cmake/vtk-6.2/Modules/vtkCommonColor.cmake"
   "/usr/lib/cmake/vtk-6.2/Modules/vtkCommonComputationalGeometry.cmake"
@@ -205,10 +207,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfigVersion.cmake"
-  "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
-  "/usr/local/share/OpenCV/OpenCVConfig.cmake"
-  "/usr/local/share/OpenCV/OpenCVModules-release.cmake"
-  "/usr/local/share/OpenCV/OpenCVModules.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.5/Modules/CMakeCInformation.cmake"
@@ -320,6 +318,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "src/CMakeFiles/visualOdometry.dir/DependInfo.cmake"
   "src/CMakeFiles/joinPointCloud.dir/DependInfo.cmake"
   "src/CMakeFiles/main.dir/DependInfo.cmake"
   "src/CMakeFiles/slambase.dir/DependInfo.cmake"
