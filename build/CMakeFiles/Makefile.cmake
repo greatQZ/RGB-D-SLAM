@@ -13,6 +13,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
+  "../cmake_modules/FindCSparse.cmake"
+  "../cmake_modules/FindG2O.cmake"
   "../src/CMakeLists.txt"
   "/home/greatqz/opencv-2.4.11/cmake/OpenCVConfig.cmake"
   "/home/greatqz/opencv-2.4.11/cmake/OpenCVModules.cmake"
@@ -323,5 +325,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/main.dir/DependInfo.cmake"
   "src/CMakeFiles/slambase.dir/DependInfo.cmake"
   "src/CMakeFiles/detectFeatures.dir/DependInfo.cmake"
+  "src/CMakeFiles/slamEnd.dir/DependInfo.cmake"
   "src/CMakeFiles/generate_pointcloud.dir/DependInfo.cmake"
   )

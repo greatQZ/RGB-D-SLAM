@@ -176,6 +176,19 @@ detectFeatures/fast:
 .PHONY : detectFeatures/fast
 
 #=============================================================================
+# Target rules for targets named slamEnd
+
+# Build rule for target.
+slamEnd: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 slamEnd
+.PHONY : slamEnd
+
+# fast build rule for target.
+slamEnd/fast:
+	$(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/build
+.PHONY : slamEnd/fast
+
+#=============================================================================
 # Target rules for targets named generate_pointcloud
 
 # Build rule for target.
@@ -201,6 +214,7 @@ help:
 	@echo "... main"
 	@echo "... slambase"
 	@echo "... detectFeatures"
+	@echo "... slamEnd"
 	@echo "... generate_pointcloud"
 .PHONY : help
 

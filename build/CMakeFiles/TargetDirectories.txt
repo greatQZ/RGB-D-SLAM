@@ -7,4 +7,5 @@
 /home/greatqz/RGB-D-SLAM/build/src/CMakeFiles/main.dir
 /home/greatqz/RGB-D-SLAM/build/src/CMakeFiles/slambase.dir
 /home/greatqz/RGB-D-SLAM/build/src/CMakeFiles/detectFeatures.dir
+/home/greatqz/RGB-D-SLAM/build/src/CMakeFiles/slamEnd.dir
 /home/greatqz/RGB-D-SLAM/build/src/CMakeFiles/generate_pointcloud.dir

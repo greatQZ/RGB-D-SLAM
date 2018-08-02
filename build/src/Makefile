@@ -186,6 +186,21 @@ detectFeatures/fast:
 .PHONY : detectFeatures/fast
 
 # Convenience name for target.
+src/CMakeFiles/slamEnd.dir/rule:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slamEnd.dir/rule
+.PHONY : src/CMakeFiles/slamEnd.dir/rule
+
+# Convenience name for target.
+slamEnd: src/CMakeFiles/slamEnd.dir/rule
+
+.PHONY : slamEnd
+
+# fast build rule for target.
+slamEnd/fast:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/build
+.PHONY : slamEnd/fast
+
+# Convenience name for target.
 src/CMakeFiles/generate_pointcloud.dir/rule:
 	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generate_pointcloud.dir/rule
 .PHONY : src/CMakeFiles/generate_pointcloud.dir/rule
@@ -335,6 +350,33 @@ slamBase.cpp.s:
 	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.s
 .PHONY : slamBase.cpp.s
 
+slamEnd.o: slamEnd.cpp.o
+
+.PHONY : slamEnd.o
+
+# target to build an object file
+slamEnd.cpp.o:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/slamEnd.cpp.o
+.PHONY : slamEnd.cpp.o
+
+slamEnd.i: slamEnd.cpp.i
+
+.PHONY : slamEnd.i
+
+# target to preprocess a source file
+slamEnd.cpp.i:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/slamEnd.cpp.i
+.PHONY : slamEnd.cpp.i
+
+slamEnd.s: slamEnd.cpp.s
+
+.PHONY : slamEnd.s
+
+# target to generate assembly for a file
+slamEnd.cpp.s:
+	cd /home/greatqz/RGB-D-SLAM/build && $(MAKE) -f src/CMakeFiles/slamEnd.dir/build.make src/CMakeFiles/slamEnd.dir/slamEnd.cpp.s
+.PHONY : slamEnd.cpp.s
+
 visualOdometry.o: visualOdometry.cpp.o
 
 .PHONY : visualOdometry.o
@@ -375,6 +417,7 @@ help:
 	@echo "... main"
 	@echo "... slambase"
 	@echo "... detectFeatures"
+	@echo "... slamEnd"
 	@echo "... generate_pointcloud"
 	@echo "... detectFeatures.o"
 	@echo "... detectFeatures.i"
@@ -391,6 +434,9 @@ help:
 	@echo "... slamBase.o"
 	@echo "... slamBase.i"
 	@echo "... slamBase.s"
+	@echo "... slamEnd.o"
+	@echo "... slamEnd.i"
+	@echo "... slamEnd.s"
 	@echo "... visualOdometry.o"
 	@echo "... visualOdometry.i"
 	@echo "... visualOdometry.s"

@@ -69,6 +69,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/pcl-1.7"
   "/usr/include/eigen3"
   "/usr/include/ni"
+  "/usr/local/include"
+  "/usr/include/suitesparse"
   )
 
 # Targets to which this target links.

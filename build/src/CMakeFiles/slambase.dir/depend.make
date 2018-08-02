@@ -7,6 +7,7 @@ src/CMakeFiles/slambase.dir/slamBase.cpp.o: /home/greatqz/opencv-2.4.11/modules/
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/affine.hpp
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/core.hpp
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/core_c.h
+src/CMakeFiles/slambase.dir/slamBase.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/eigen.hpp
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/mat.hpp
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/operations.hpp
 src/CMakeFiles/slambase.dir/slamBase.cpp.o: /home/greatqz/opencv-2.4.11/modules/core/include/opencv2/core/types_c.h

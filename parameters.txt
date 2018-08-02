@@ -16,7 +16,7 @@ camera.scale=1000.0;
 
 #data related
 # start and end index
-start_index=1
+start_index=150
 end_index=700
 # path of data
 rgb_dir=data/rgb_png/
@@ -26,7 +26,7 @@ depth_extension=.png
 # pcl resolution ratio
 voxel_grid=0.01
 # realtime visualization?
-visualize_pointcloud=yes
+visualize_pointcloud=no
 # minimum matching quantity
 min_good_match=10
 # minimum inliers
